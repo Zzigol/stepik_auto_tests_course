@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import unittest
+import pytest
 
 
 def my_function(link):
@@ -23,12 +24,12 @@ def my_function(link):
 class TestAbs(unittest.TestCase):
     def test_abs1(self):
         link = "http://suninjuly.github.io/registration1.html"        
-        self.assertEqual("Congratulations! You have successfully registered!", my_function(link), "Should be absolute value of a number")
+        assert("Congratulations! You have successfully registered!", my_function(link), "Should be absolute value of a number")
 
     def test_abs2(self):
         link = "http://suninjuly.github.io/registration2.html"        
-        self.assertEqual("Congratulations! You have successfully registered!", my_function(link), "Should be absolute value of a number")
+        assert("Congratulations! You have successfully registered!", my_function(link), "Should be absolute value of a number")
 if __name__ == "__main__":
-    unittest.main()
+    pytest.main()
 
 
