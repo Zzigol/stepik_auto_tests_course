@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import unittest
-import PyTest
+
 
 def my_function(link):
     browser = webdriver.Chrome()
