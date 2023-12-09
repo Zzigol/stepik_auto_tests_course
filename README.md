@@ -1,3 +1,3 @@
 # stepik_auto_tests_course
-Тут будут хранится автотетсы с курса https://stepik.org/course/575/syllabus 
+РўСѓС‚ Р±СѓРґСѓС‚ С…СЂР°РЅРёС‚СЃСЏ Р°РІС‚РѕС‚РµСЃС‚С‹ РєСѓСЂСЃР° https://stepik.org/course/575/syllabus 
 Homework
